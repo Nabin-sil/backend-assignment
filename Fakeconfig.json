@@ -1,0 +1,11 @@
+{
+    "database": {
+        "host": "localhost",
+        "port": "",
+        "user": "", 
+        "password": "",
+        "database": ""
+    },
+    "secret": "",
+    "note":"Please create a config.json file and configure these field with your database credentials"
+}

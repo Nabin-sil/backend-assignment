@@ -1,0 +1,35 @@
+{
+  "name": "backend-assignment",
+  "version": "1.0.0",
+  "description": "In this assignment, you will be tasked with developing a Node.js backend application that demonstrates your proficiency in backend development, specifically with Node.js and SQL databases. The assignment will assess your ability to architect and implement APIs, handle database operations.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nabin-sil/backend-assignment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nabin-sil/backend-assignment/issues"
+  },
+  "homepage": "https://github.com/Nabin-sil/backend-assignment#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-jwt": "^8.4.1",
+    "joi": "^17.9.2",
+    "jsonwebtoken": "^9.0.0",
+    "mysql2": "^3.4.4",
+    "path": "^0.12.7",
+    "rootpath": "^0.1.2",
+    "sequelize": "^6.32.1",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^4.6.3"
+  }
+}
