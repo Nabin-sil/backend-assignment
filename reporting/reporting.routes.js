@@ -17,13 +17,6 @@ module.exports = router;
 
 /**
  * @swagger
- * tags:
- *   name: Reporting
- *   description: APIs for generating sales reports and retrieving top-selling products
- */
-
-/**
- * @swagger
  * /reports/sales:
  *   get:
  *     summary: Get total sales by day, week, or month
@@ -47,29 +40,3 @@ module.exports = router;
  *                   type: number
  */
 
-/**
- * @swagger
- * /reports/top-selling-products:
- *   get:
- *     summary: Get top-selling products
- *     tags: [Reporting]
- *     parameters:
- *       - in: query
- *         name: limit
- *         required: false
- *         schema:
- *           type: integer
- *         description: The maximum number of top-selling products to retrieve (default: 10)
- *     responses:
- *       '200':
- *         description: Successful retrieval of top-selling products
- *         content:
- *           application/json:
- *             schema:
- *               type: object
- *               properties:
- *                 topSellingProducts:
- *                   type: array
- *                   items:
- *                     $ref: '#/components/schemas/Product'
- */
